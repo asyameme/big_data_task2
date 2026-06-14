@@ -39,6 +39,7 @@ python calc_data.py input.parquet
 Пример запуска в контейнере:
 
 ```bash
+docker build -t calc_data_task2 .
 docker run --rm -v "$PWD:/data:ro" calc_data_task2 /data/input.parquet
 ```
 
