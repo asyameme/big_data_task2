@@ -4,7 +4,7 @@ import numpy as np
 import polars as pl
 
 
-BATCH_SIZE = 2_000_000
+BATCH_SIZE = 1_000_000
 SECOND_NS = 1_000_000_000
 MINUTE_NS = 60 * SECOND_NS
 
